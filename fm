@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" class="h-full antialiased">
+  <head>
+    <script>
+      (function() {
+        try {
+          let _fetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get() {
+              return _fetch;
+            },
+            set(v) {
+              _fetch = v;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        } catch (e) {
+          try {
+            let _protoFetch = Window.prototype.fetch;
+            Object.defineProperty(Window.prototype, 'fetch', {
+              get() {
+                return _protoFetch;
+              },
+              set(v) {
+                _protoFetch = v;
+              },
+              configurable: true,
+              enumerable: true,
+            });
+          } catch (err) {}
+        }
+
+        window.addEventListener('error', function(e) {
+          if (e && e.message && e.message.includes('fetch')) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        }, true);
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM Addon — Video Editor for Top Creators | Make Every Second Count</title>
+    <meta name="description" content="FM Addon is a premier video editor specializing in hyper-retention editing, pacing, and storytelling for top YouTube creators and short-form brands. Make every second count." />
+    <meta name="application-name" content="FM Addon" />
+    <meta name="author" content="FM Addon" />
+    <meta name="keywords" content="FM Addon, video editor, YouTube video editor, retention editing, short form editing, premiere pro, after effects, viral video editor" />
+    <meta name="creator" content="FM Addon" />
+    <meta name="publisher" content="FM Addon" />
+    <meta name="robots" content="index, follow" />
+    <meta name="category" content="portfolio" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:title" content="FM Addon — Video Editor for Top Creators | Make Every Second Count" />
+    <meta property="og:description" content="FM Addon is a premier video editor specializing in hyper-retention editing, pacing, and storytelling for top YouTube creators and short-form brands. Make every second count." />
+    <meta property="og:site_name" content="FM Addon" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="FM" />
+    <meta property="profile:last_name" content="Addon" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@fmaddon" />
+    <meta name="twitter:title" content="FM Addon — Video Editor for Top Creators | Make Every Second Count" />
+    <meta name="twitter:description" content="FM Addon is a premier video editor specializing in hyper-retention editing, pacing, and storytelling for top YouTube creators and short-form brands. Make every second count." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800;900&family=Geist+Mono:wght@400;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "https://fmaddon.com#fm-addon",
+          "name": "FM Addon",
+          "description": "FM Addon is a premier video editor specializing in hyper-retention editing, sound design, motion graphics, and storytelling for top YouTube creators and viral brands.",
+          "jobTitle": "Lead Video Editor & Retention Specialist",
+          "knowsAbout": ["Video Editing", "Adobe Premiere Pro", "After Effects", "YouTube Retention", "Short-Form Virality", "Sound Design"]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "FM Addon — Video Editing Portfolio",
+          "description": "Video editing portfolio for FM Addon. Make every second count.",
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="min-h-full flex flex-col bg-paper text-ink">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+
+{
+  "name": "FmEdits — Video Editor Portfolio",
+  "description": "Video Editing Portfolio for FmEdits",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0",
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3",
+    "motion": "^12.23.24"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "@types/express": "^4.17.21"
+  }
+}
+
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/0507cce0-45e0-4711-b67b-dfa615d681ea
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}
+
+import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import {defineConfig} from 'vite';
+
+export default defineConfig(() => {
+  return {
+    plugins: [react(), tailwindcss()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
+    },
+    server: {
+      // HMR is disabled in AI Studio via DISABLE_HMR env var.
+      // Do not modify—file watching is disabled to prevent flickering during agent edits.
+      hmr: process.env.DISABLE_HMR !== 'true',
+      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
+      watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    },
+  };
+});
