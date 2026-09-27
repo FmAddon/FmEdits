@@ -295,14 +295,14 @@ export default function App() {
           <div className="mt-8 sm:mt-12 w-full max-w-4xl mx-auto scale-[1.01] transition-transform duration-300">
             <video
               ref={videoRef}
-              src="/ff.mp4"
+              src="/FmEdits/ff.mp4"
               autoPlay
               muted
               loop
               playsInline
               className="w-full aspect-video rounded-2xl sm:rounded-3xl object-cover block pointer-events-none"
             >
-              <source src="/ff.mp4" type="video/mp4" />
+              <source src="/FmEdits/ff.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
