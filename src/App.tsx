@@ -212,7 +212,7 @@ export default function App() {
             <div className="relative flex-shrink-0">
               <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-[2.5px] border-ink bg-paper overflow-hidden flex items-center justify-center">
                 <img
-                  src="/logo.png"
+                  src="/FmEdits/logo.png"
                   alt="FmEdits Logo"
                   className="w-full h-full object-cover select-none"
                   referrerPolicy="no-referrer"
