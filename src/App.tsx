@@ -212,7 +212,7 @@ export default function App() {
             <div className="relative flex-shrink-0">
               <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-[2.5px] border-ink bg-paper overflow-hidden flex items-center justify-center">
                 <img
-                  src="/FmEdits/logo.png"
+                  src="/logo.png"
                   alt="FmEdits Logo"
                   className="w-full h-full object-cover select-none"
                   referrerPolicy="no-referrer"
@@ -295,14 +295,14 @@ export default function App() {
           <div className="mt-8 sm:mt-12 w-full max-w-4xl mx-auto scale-[1.01] transition-transform duration-300">
             <video
               ref={videoRef}
-              src="/FmEdits/ff.mp4"
+              src="/ff.mp4"
               autoPlay
               muted
               loop
               playsInline
               className="w-full aspect-video rounded-2xl sm:rounded-3xl object-cover block pointer-events-none"
             >
-              <source src="/FmEdits/ff.mp4" type="video/mp4" />
+              <source src="/ff.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
